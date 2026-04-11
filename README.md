@@ -9,7 +9,7 @@ An intelligent and lightweight computer vision system designed to automatically 
 
 This system identifies three major types of fabric defects:
 
-1. **Holes / Broken Yarn (Structural Defects)**
+1. Holes / Broken Yarn (Structural Defects)
 2. **Colour Variation (Shade Differences)**
 3. **Dirt / Stains (Surface Contamination)**
 
