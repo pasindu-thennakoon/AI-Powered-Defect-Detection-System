@@ -1,11 +1,11 @@
 # AI-Powered-Defect-Detection-System
-# 🧵 AI-Powered Fabric Defect Detection System
+# AI-Powered Fabric Defect Detection System
 
 An intelligent and lightweight computer vision system designed to automatically detect defects in **single-colour fabrics** using image processing and machine learning techniques.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This system identifies three major types of fabric defects:
 
@@ -14,14 +14,14 @@ This system identifies three major types of fabric defects:
 3. **Dirt / Stains (Surface Contamination)**
 
 The solution is optimized for:
-- ✅ Single-colour fabric inspection  
-- ✅ Low computational cost  
-- ✅ Real-time or near real-time deployment  
-- ✅ Small and medium-scale textile industries  
+- Single-colour fabric inspection  
+- Low computational cost  
+- Real-time or near real-time deployment  
+- Small and medium-scale textile industries  
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 The system follows a **parallel multi-module architecture**:
 
@@ -43,9 +43,9 @@ Inspection Report
 
 ---
 
-## 🔍 Modules Description
+## Modules Description
 
-### 🧵 Module 1: Holes / Broken Yarn Detection
+### Module 1: Holes / Broken Yarn Detection
 - Converts image to grayscale  
 - Uses AI model to detect structural defects  
 - Applies Non-Max Suppression (NMS)  
@@ -53,7 +53,7 @@ Inspection Report
 
 ---
 
-### 🎨 Module 2: Colour Variation Detection
+### Module 2: Colour Variation Detection
 - Converts RGB → LAB colour space  
 - Computes colour difference using ΔE (2000)  
 - Uses ML model to classify shade variations  
@@ -61,7 +61,7 @@ Inspection Report
 
 ---
 
-### 🧼 Module 3: Dirt / Stains Detection
+### Module 3: Dirt / Stains Detection
 - Retains RGB channels  
 - Uses lightweight CNN + thresholding  
 - Generates binary defect masks  
@@ -69,18 +69,18 @@ Inspection Report
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-- 🎯 Specialized for **single-colour fabrics**
-- ⚡ Lightweight and efficient models
-- 💡 Uses **LAB colour space + ΔE** for accurate colour analysis
-- 🔆 Robust to lighting variations (illumination normalization)
-- 💰 Cost-effective for real-world deployment
-- 📊 Modular and scalable architecture
+- Specialized for **single-colour fabrics**
+- Lightweight and efficient models
+- Uses **LAB colour space + ΔE** for accurate colour analysis
+- Robust to lighting variations (illumination normalization)
+- Cost-effective for real-world deployment
+- Modular and scalable architecture
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core
 - Python
@@ -103,7 +103,7 @@ Inspection Report
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 fabric-defect-detection/
 │
@@ -126,7 +126,7 @@ fabric-defect-detection/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 ```bash
