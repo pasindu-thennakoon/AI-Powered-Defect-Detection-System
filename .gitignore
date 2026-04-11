@@ -1,70 +1,35 @@
-# 🔹 Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# 🔹 Virtual Environment
 venv/
 env/
 ENV/
-
-# 🔹 Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-
-# 🔹 VS Code settings
 .vscode/
-
-# 🔹 PyCharm settings
 .idea/
-
-# 🔹 OS files
 .DS_Store
 Thumbs.db
-
-# 🔹 Logs
 *.log
-
-# 🔹 Environment variables
 .env
-
-# 🔹 Data folders (optional - ignore large datasets)
 data/raw/
 data/processed/
-
-# 🔹 Model weights (large files)
 models/trained_weights/
 *.h5
 *.pt
 *.pth
 *.onnx
-
-# 🔹 Output files
 outputs/images/
 outputs/reports/
-
-# 🔹 Temporary files
 *.tmp
 *.temp
-
-# 🔹 Python packaging
 build/
 dist/
 *.egg-info/
-
-# 🔹 Matplotlib cache
 .matplotlib/
-
-# 🔹 Coverage reports
 htmlcov/
 .coverage
 coverage.xml
-
-# 🔹 mypy / pytest cache
 .mypy_cache/
 .pytest_cache/
-
-# 🔹 Spyder project settings
 .spyproject/
-
-# 🔹 Rope project settings
 .ropeproject/
