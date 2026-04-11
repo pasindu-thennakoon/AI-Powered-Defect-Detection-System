@@ -14,10 +14,10 @@ This system identifies three major types of fabric defects:
 3. **Dirt / Stains (Surface Contamination)**
 
 The solution is optimized for:
-- ✅ Single-colour fabric inspection  
-- ✅ Low computational cost  
-- ✅ Real-time or near real-time deployment  
-- ✅ Small and medium-scale textile industries  
+- Single-colour fabric inspection  
+- Low computational cost  
+- Real-time or near real-time deployment  
+- Small and medium-scale textile industries  
 
 ---
 
@@ -71,12 +71,12 @@ Inspection Report
 
 ## Key Features
 
-- 🎯 Specialized for **single-colour fabrics**
-- ⚡ Lightweight and efficient models
-- 💡 Uses **LAB colour space + ΔE** for accurate colour analysis
-- 🔆 Robust to lighting variations (illumination normalization)
-- 💰 Cost-effective for real-world deployment
-- 📊 Modular and scalable architecture
+- Specialized for **single-colour fabrics**
+- Lightweight and efficient models
+- Uses **LAB colour space + ΔE** for accurate colour analysis
+- Robust to lighting variations (illumination normalization)
+- Cost-effective for real-world deployment
+- Modular and scalable architecture
 
 ---
 
